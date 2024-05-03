@@ -22,6 +22,8 @@ const line = L.polyline([philly, bankBuilding]).addTo(map);
 const circle = L.circle(libertyBell).addTo(map);
 const polygon = L.polygon([philly, libertyBell, museum]).addTo(map);
 
+
+// layer groups are for when you want to add or remove all markers at once
 //layer group
 const layerGroup = L.layerGroup().addTo(map);
 marker.addTo(layerGroup);
